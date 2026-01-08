@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo{
+    display: flex;
+    margin: 16px 0 16px 120px;
+}
+nav ul{
+    display: flex;
+    color: black;
+    list-style: none;
+    gap: 50px;
+    margin: 34px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+nav li a {
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+   
+}
+.button{
+    margin: 24px 120px 24px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.button:hover{
+    background-color: #005461 ;
+    transition: 1.11s;
+}

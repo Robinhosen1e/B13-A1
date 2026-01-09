@@ -60,16 +60,61 @@ nav li a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 109vh;
+    height: 674px;
     background-image: url(../assets/hero-bg.png);
     margin-bottom: 100px;
-
-}
-.container div{
-    align-items: center;
+    display: flex;
     justify-content: center;
-    color: #FFFFFF;
+    align-items: center;
 }
+.container .comten{
+   max-width: 1360px; 
+}
+
+.container .comten{
+    text-align: center;
+}
+.comten .container-button-1 button {
+    padding: 8px 12px;
+    margin-bottom: 24px;
+    border-radius: 1000px;
+    color: #30B868;
+    font-size: 16px;
+    
+}
+.comten .container-conten h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    line-height: 84px;
+}
+.comten .container-conten h1 .heading-og{
+    font-size: 72px;
+    font-weight: 700;
+    color: #30B868;
+}
+.comten .container-conten p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.comten .container-button-2-1{
+    margin-left: 16px;
+    
+}
+.comten .container-button-2 button{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    border: none;
+    padding: 16px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 .card-heading{
     text-align: center;
     

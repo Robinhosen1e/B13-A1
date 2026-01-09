@@ -168,3 +168,39 @@ nav li a {
     border-radius: 30px;
     padding: 14px;
 }
+.container-dettil{
+    display: flex;
+    margin: 0 120px 120px;
+}
+.container-content-1{
+    margin-top: 102px;
+    margin-left: 60px;
+    /* margin-right: 120px; */
+}
+.container-content-1 .sub-tittl{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #30B868;
+}
+.container-content-1 h2{
+    font-size: 48px;
+    line-height: auto;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.text-box{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.pe-op {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
